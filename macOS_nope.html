@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Dan on Github: standard disclaimer about macOS</title>
+
+  <link href="site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<section class='container'>
+  <h1>Dan on Github: standard disclaimer about macOS in my projects</h1>
+
+  <p>
+  I've written and contributed to lots of open-source software tools, <a href="index.html">as you've probably already seen</a>. Almost
+  all of the software I write specifically targets GNU/Linux in the server environment.
+  </p>
+
+  <p>
+  Users of software I contribute to are very frequently asking for help with macOS (and occasionally other POSIX OSes, like
+  FreeBSD or Solaris). But most frequently and gratingly… macOS. Some things to keep in mind about <b>me</b>:
+  </p>
+
+  <ul>
+    <li>I <b>do not use macOS</b>. I do not <b>want</b> to use macOS</b>. Same for iOS. Same for iPadOS.</li>
+    <li>You would have to pay me to go to the trouble of even trying macOS or iOS. Even if you <i>are</i> paying me, and even if
+      All The Cool Kids at the company are using macOS and iOS, <b>I</b> will probably request to use GNU/Linux desktop environment and
+      an Android phone if at all possible.</li>
+    <li>macOS is <b>not</b> "just like Linux", especially not in terms of its kernel or its networking functionality.</li>
+    <li>I have <i>lots</i> of interest and personal motivation to make GNU/Linux better, and to make software that I write work better on it.</i>
+    <li>I have <i>some</i> personal motivation to make other free/open-source operating systems better (say, the open-source core
+      of Android, or FreeBSD).</li>
+    <li>I have <i>just about zeeeeeeero</i> internal motivation to improve macOS, or to make any particular software work better on
+      macOS.</li>
+    <li>It's an enormous pain in the ass to test anything on macOS. There are plenty of high-quality free-as-in-beer CI/CD services
+      that will let me spin up an automated testing environment for GNU/Linux distros, like GitHub Actions or GitLab CI. There
+      are <b>none</b> for macOS.</li>
+  </ul>
+
+  <p>If you want to improve support for macOS in a project of mine, I'm happy to accept contributions, but most of the burden is going
+    to be on <i>you</i> and other macOS users who care to contribute:</p>
+
+  <ul>
+    <li>You're going to have to diagnose, describe, and document the issues yourself.</li>
+    <li>You're going to have to design and test the solutions yourself. "Pull requests welcome"</li>
+    <li>You're going to have to make sure that your contributions don't introduce regressions or make the code difficult to
+      maintain for platforms that I personally care about. (Hey, have I mentioned Linux?)</li>
+    <li><b>See <a href="https://github.com/dlenski/vpn-slice/pull/11">dlenski/vpn-slice#11</a> for an example of a PR to improve
+      macOS support that cleared this bar.</b></li>
+  </ul>
+    
+  <footer>
+    <i>made by <a href="//github.com/dlenski">dlenski</a></i>
+  </footer>
+
+</section>
+</body>
+</html>
